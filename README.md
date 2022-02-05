@@ -55,3 +55,5 @@
     4. ```categories```: Categories defines where the page will be stored in when it is compiled. Each category might define different ways of displaying the page.
 
     5. ```<your-own-attribute>```: You can even define your own custom front matter attribute that you can refer to in the layouts.
+
+3. We can create sub directories in _posts to keep it organised and it won't change anything in the project.
