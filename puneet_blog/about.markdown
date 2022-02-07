@@ -4,15 +4,23 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Hi There! I am a data engineer working on multiple things right now, Jekyll being one of them. I am currently working as a data engineer at QuantumBlack. I also have experience in Data Science. Hmu if you want to collaborate on something.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+In my free time I
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+- 🎶 Listen to music. All sorts of music.
 
+- 🎦 Watch movies/tv series that suit my mood at the moment.
 
-[jekyll-organization]: https://github.com/jekyll
+- 👥 Hang out with my friends.
+
+- 🎸 Play a few strings on Ukulele.
+
+- 🏸 Play Badminton.
+
+- 👨‍💻 Find something new to code/learn.
+
+{: style="text-align: center" }
+[<img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" width="50">](https://github.com/puneet29) 
+[<img src="https://cdn-icons-png.flaticon.com/512/61/61109.png" width="50">](https://linkedin.com/in/geekpuneet) 
+[<img src="https://cdn-icons-png.flaticon.com/512/87/87390.png" width="50">](https://instagram.com/puneetsaini)
