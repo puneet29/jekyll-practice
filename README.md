@@ -57,3 +57,11 @@
     5. ```<your-own-attribute>```: You can even define your own custom front matter attribute that you can refer to in the layouts.
 
 3. We can create sub directories in _posts to keep it organised and it won't change anything in the project.
+
+### Creating draft posts in Jekyll
+
+1. All drafts are saved under ```_drafts``` folder inside the project directory. You might need to create this folder.
+
+2. By default, drafts don't show up in the served website. To see the drafts in served website add ```--drafts``` option to the jekyll serve command.
+
+3. Drafts don't have any naming convention like posts do. So, if you don't add the date to the file, jekyll will by default pick the last updated date for that draft. The title of the draft however will be picked up from the filename if not specified in the front matter.
