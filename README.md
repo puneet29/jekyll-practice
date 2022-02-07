@@ -197,3 +197,9 @@
 5. We can set the defaults for the image assets by setting the front matter in _config.yml as follows for the images folder in the project:
 
     ![Image Assets Config](images/ImageAssets.png)
+
+## How to serve jekyll on GitHub Pages
+
+1. Go to ```_config.yml``` and update the base url to be the name of the repository.
+
+2. Create a new branch for the repo named ```gh-pages```.
