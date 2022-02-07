@@ -1,8 +1,6 @@
 # jekyll-practice
 
-## Notes
-
-### Getting started with first Jekyll Project
+## Getting started with first Jekyll Project
 
 1. Prerequisites:
     1. Ruby and Gem must be installed on your machine
@@ -18,7 +16,7 @@
 
     ```bundle exec jekyll serve```
 
-### Folder Structure
+## Folder Structure
 
 1. ```_posts``` contains the blog posts for the website.
 
@@ -34,7 +32,7 @@
 
 7. ```index.markdown``` contains the index page markdown.
 
-### Understanding the blog posts inside _post
+## Understanding the blog posts inside _post
 
 1. Default file naming convention for blog posts is: ```<date>-<post-title>.markdown```
 
@@ -58,7 +56,7 @@
 
 3. We can create sub directories in _posts to keep it organised and it won't change anything in the project.
 
-### Creating draft posts in Jekyll
+## Creating draft posts in Jekyll
 
 1. All drafts are saved under ```_drafts``` folder inside the project directory. You might need to create this folder.
 
@@ -68,7 +66,7 @@
 
 4. Once you are done and satisfied with the draft, you can move it to _posts folder with the naming convention used there.
 
-### Creating pages in Jekyll
+## Creating pages in Jekyll
 
 1. Pages are the pages you see on your website. Example: About, Contact me, etc.
 
@@ -76,7 +74,7 @@
 
 3. We can also move the pages to a directory in the root folder of the project, but that will change the url for accessing that page. (It will add the ```/<folder_name>/<page_name>``` to the url)
 
-### Permalinks in Jekyll
+## Permalinks in Jekyll
 
 1. Permalinks define the permanent url that the post/page will have.
 
@@ -98,7 +96,7 @@
 
     5. :year
 
-### Defaults of Front Matter
+## Defaults of Front Matter
 
 ![FrontMatterDefaults](images/FrontMatterDefaults.png)
 
@@ -117,3 +115,13 @@
     4. ```values```: Values contain the default key pair values for the front matter attributes.
 
 4. You need to rerun the jekyll serve command in case you change the ```_config.yml``` file.
+
+## Themes
+
+1. Theme for a jekyll website is defined inside the _config.yml file.
+
+2. You can search for Jekyll themes by visiting [RubyGems](https://rubygems.org) and searching for ```jekyll-theme``` in search bar.
+
+3. For each theme, different layouts are defined. So, when you change the theme you might need to change the layout for each file in your project. These layouts can be found on the github page for those themes under the ```_layouts``` folder.
+
+4. You can also find the documentations for the jekyll themes to structure the project according to the requirements of the theme.

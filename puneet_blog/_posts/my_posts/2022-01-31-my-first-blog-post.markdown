@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: posts
 title:  "My First Post"
 date:   2022-02-05 07:44:30 +0000
 categories: jekyll Cat2

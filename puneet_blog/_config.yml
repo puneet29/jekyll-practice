@@ -30,7 +30,7 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
-theme: minima
+theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-feed
 
@@ -42,7 +42,7 @@ defaults:
       path: ""
       type: "posts"
     values:
-      layout: "post"
+      layout: "posts"
 # ---------------------------------------------------------
 
 # Exclude from processing.
