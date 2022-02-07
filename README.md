@@ -163,3 +163,13 @@
 4. You can also add params to these calls. ```{% include <include_name> <include_var_name>="<value>" %}```.
 
 5. To access params in the include files, use the ```include.<include_var_name>```.
+
+## Loops and Conditions
+
+1. For this demonstration you can refer to the ```home_test.html``` in layouts.
+
+2. You can easily loop over multiple elements using the for loop in the layout. Please refer to the example.
+
+3. You can use the ```if```, ```elsif``` and ```else``` statements to check conditions.
+
+4. You can also use ```and``` and ```or``` logical operators too.
