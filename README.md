@@ -137,3 +137,17 @@
 4. For overriding the existing layout posts, you can rename the file under _layouts posts_temp.html to posts.html and it will override the existing posts layout.
 
 5. We can also use a wrapper layout that we can call in other layouts using front matter. For example in kiki layout, you can see that it includes the wrapper layout and for wrapper the content will be the contents in the kiki layout and wherever kiki is being used there the content will be the rendered layout from the kiki and wrapper.
+
+## Liquid Variables in Jekyll
+
+1. You can access the variables in jekyll layouts using liquid templating language.
+
+2. We have already used the ```{{ content }}``` variable in kiki and wrapper layout.
+
+3. To access the front matter attributes mentioned in the layout file use the ```layout.<attribute-name>``` syntax.
+
+4. To access the front matter attributes mentioned in the posts use the ```page.<attribute_name>``` syntax.
+
+5. To access the website wide variables which are defined in _config.yml use the ```site.<attribute_name>``` syntax.
+
+6. To know more on the variables available in Jekyll refer to the documentation [page](https://jekyllrb.com/docs/variables/).
