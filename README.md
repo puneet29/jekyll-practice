@@ -75,3 +75,25 @@
 2. The front matter must have the layout attribute set to page. ```layout: page```
 
 3. We can also move the pages to a directory in the root folder of the project, but that will change the url for accessing that page. (It will add the ```/<folder_name>/<page_name>``` to the url)
+
+# Permalinks in Jekyll
+
+1. Permalinks define the permanent url that the post/page will have.
+
+2. You can mention the permalink in the front matter for that post/page. The example of which you can see in the pages/donate post.
+
+3. Use of this attribute is to keep a single url for the post/page, even if there's a change in the date or category attribute.
+
+4. You can also give variables to the permalink. Example of this can be seen in the My first blog post inside _posts/my_posts.
+    
+    Each variable has the syntax: ```:<variable_name>```. Some of the examples are given below:
+
+    1. :categories
+
+    2. :title
+
+    3. :day
+
+    4. :month
+
+    5. :year
