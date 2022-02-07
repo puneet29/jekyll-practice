@@ -151,3 +151,15 @@
 5. To access the website wide variables which are defined in _config.yml use the ```site.<attribute_name>``` syntax.
 
 6. To know more on the variables available in Jekyll refer to the documentation [page](https://jekyllrb.com/docs/variables/).
+
+## Includes
+
+1. You can have header and footer layouts which you can then **include** in the layouts for your jekyll website.
+
+2. These includes can be added to the ```_includes``` folder.
+
+3. You can call your include layouts inside the actual layouts by using the ```{% include <include_name> %}``` syntax.
+
+4. You can also add params to these calls. ```{% include <include_name> <include_var_name>="<value>" %}.
+
+5. To access params in the include files, use the ```include.<include_var_name>```.
