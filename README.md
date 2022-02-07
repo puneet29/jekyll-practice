@@ -125,3 +125,15 @@
 3. For each theme, different layouts are defined. So, when you change the theme you might need to change the layout for each file in your project. These layouts can be found on the github page for those themes under the ```_layouts``` folder.
 
 4. You can also find the documentations for the jekyll themes to structure the project according to the requirements of the theme.
+
+## Custom layouts or Overriding existing layouts
+
+1. You can create your layouts under the ```_layouts``` folder.
+
+2. You can also override the existing layouts by keeping the name of the layout html same as the layout you want to override.
+
+3. Example for this can be seen in the welcome to jekyll post. I have used a custom layout called kiki.
+
+4. For overriding the existing layout posts, you can rename the file under _layouts posts_temp.html to posts.html and it will override the existing posts layout.
+
+5. We can also use a wrapper layout that we can call in other layouts using front matter. For example in kiki layout, you can see that it includes the wrapper layout and for wrapper the content will be the contents in the kiki layout and wherever kiki is being used there the content will be the rendered layout from the kiki and wrapper.
