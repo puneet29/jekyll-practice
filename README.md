@@ -68,7 +68,7 @@
 
 4. Once you are done and satisfied with the draft, you can move it to _posts folder with the naming convention used there.
 
-# Creating pages in Jekyll
+### Creating pages in Jekyll
 
 1. Pages are the pages you see on your website. Example: About, Contact me, etc.
 
@@ -76,7 +76,7 @@
 
 3. We can also move the pages to a directory in the root folder of the project, but that will change the url for accessing that page. (It will add the ```/<folder_name>/<page_name>``` to the url)
 
-# Permalinks in Jekyll
+### Permalinks in Jekyll
 
 1. Permalinks define the permanent url that the post/page will have.
 
@@ -97,3 +97,23 @@
     4. :month
 
     5. :year
+
+### Defaults of Front Matter
+
+![FrontMatterDefaults](images/FrontMatterDefaults.png)
+
+1. Consider an example where you are the author of the posts 99% of the time. You would want to have a default front matter attribute author that will have your name.
+
+2. To set default values for front matter attributes, you can head over to ```_config.yml``` for that project.
+
+3. In the picture shown as example, following is the meaning of each attribute:
+
+    1. ```scope```: It defines for which files/folder these defaults apply to.
+
+    2. ```scope/path```: You need to specify the path for which the defaults are applicable. If you pass an empty string it will apply to the whole project.
+
+    3. ```scope/type```: This defines the type of files for which the scope of defaults will be limited to. In our example the scope will be limited to the _posts folder.
+
+    4. ```values```: Values contain the default key pair values for the front matter attributes.
+
+4. You need to rerun the jekyll serve command in case you change the ```_config.yml``` file.
