@@ -173,3 +173,15 @@
 3. You can use the ```if```, ```elsif``` and ```else``` statements to check conditions.
 
 4. You can also use ```and``` and ```or``` logical operators too.
+
+## Data Files
+
+1. For this demonstration we will be using the ```home_data.html``` layout and data file ```data/people.yml```.
+
+2. You can store the data files under ```_data``` folder and keep ```csv, json or yaml``` files inside that folder.
+
+3. These files can be used by jekyll to load the layout according to the data present inside them.
+
+4. We can access the data by using ```{{ site.data.people }}```.
+
+5. 
