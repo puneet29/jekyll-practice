@@ -184,4 +184,16 @@
 
 4. We can access the data by using ```{{ site.data.people }}```.
 
-5. 
+## Static files
+
+1. Any file without the front matter can be considered as static file.
+
+2. To demonstrate this section, I will be using the folder ```assets```. You can use any name you want to. Also, I will be using ```home_assets.html``` layout.
+
+3. You can access the static files using the ```{{ site.static_files }}``` variable.
+
+4. It will scan the whole project for all the static files, regardless of the folder they are present in.
+
+5. We can set the defaults for the image assets by setting the front matter in _config.yml as follows for the images folder in the project:
+
+    ![Image Assets Config](images/ImageAssets.png)

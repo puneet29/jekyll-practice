@@ -42,6 +42,11 @@ defaults:
       type: "posts"
     values:
       layout: "posts"
+  -
+    scope:
+      path: "assets/img"
+    values:
+      image: true
 # ---------------------------------------------------------
 
 # Exclude from processing.
