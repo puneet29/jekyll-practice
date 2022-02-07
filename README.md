@@ -65,3 +65,13 @@
 2. By default, drafts don't show up in the served website. To see the drafts in served website add ```--drafts``` option to the jekyll serve command.
 
 3. Drafts don't have any naming convention like posts do. So, if you don't add the date to the file, jekyll will by default pick the last updated date for that draft. The title of the draft however will be picked up from the filename if not specified in the front matter.
+
+4. Once you are done and satisfied with the draft, you can move it to _posts folder with the naming convention used there.
+
+# Creating pages in Jekyll
+
+1. Pages are the pages you see on your website. Example: About, Contact me, etc.
+
+2. The front matter must have the layout attribute set to page. ```layout: page```
+
+3. We can also move the pages to a directory in the root folder of the project, but that will change the url for accessing that page. (It will add the ```/<folder_name>/<page_name>``` to the url)
