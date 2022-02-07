@@ -160,6 +160,6 @@
 
 3. You can call your include layouts inside the actual layouts by using the ```{% include <include_name> %}``` syntax.
 
-4. You can also add params to these calls. ```{% include <include_name> <include_var_name>="<value>" %}.
+4. You can also add params to these calls. ```{% include <include_name> <include_var_name>="<value>" %}```.
 
 5. To access params in the include files, use the ```include.<include_var_name>```.
